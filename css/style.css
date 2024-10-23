@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    background-color: #9c9eac;
+}
+
+header {
+    font-family: "Agdasima", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+    background-color: #333;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 100px;
+    height: auto;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    margin-right: 20px;
+}
+
+.nav-list li {
+    margin: 0 15px;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    transition: color 0.3s ease-in;
+}
+
+.nav-list li a:hover {
+    color: #ff6347;
+}
+
+
+.content {
+    font-family: "Agdasima", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.content h2 {
+    margin-bottom: 20px;
+}
+
+.content img {
+    width: 100%;
+    max-width: 100px;
+    margin-top: 20px;
+}
+.container {
+    display: flex;
+    align-items: flex-start;
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: rgb(192, 193, 198);
+    padding: 20px;
+    border: 6px solid #1e1c1c;
+}
+
+.img-left {
+    width: 250px; 
+    height: 250px; 
+    margin-right: 20px;
+    border: 2px solid #333;
+    border-radius: 10px;
+}
+
+.styled-paragraph {
+    font-family: "Agdasima", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+    margin: 10px;
+    padding: 15px;
+    border: 1px solid #333;
+    background-color: #f9f9f9;
+    line-height: 1.6;
+    max-width: 600px;
+}
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.social-icons {
+    margin-top: 10px;
+}
+
+.social-icons a {
+    margin: 0 10px;
+}
+
+.social-icons img {
+    width: 50px;
+    height: 50px;
+}
